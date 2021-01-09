@@ -1,14 +1,10 @@
 import './App.css';
-import Hello from './Hello'
+import Navbar from './Navbar'
 
 function App() {
   return (
     <div>
-      <h1>Hello World</h1>
-      <Hello message="Fellipe" />
-      <Hello message="SDS" />
-      <Hello message="DS DELIVER" />
-      <Hello message="Props" />
+      <Navbar />
     </div>
   );
 }
