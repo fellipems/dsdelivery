@@ -1,14 +1,13 @@
 import './App.css';
-import Navbar from './Navbar'
-import Home from './Home'
+import Routes from './routes';
+//import Orders from './Orders'
 
 function App() { // Esse fragment será representado no HTML com div="root", mesmo a tag estando vazia
   return (
     <>
-      <Navbar />
-      <Home />
+      <Routes/>
     </>
   );  // React fragment <> </>. Criamos um bloco de código, porém esse fragment não é representado no HTML
 }
-
+// parei no 1:52:35
 export default App;
