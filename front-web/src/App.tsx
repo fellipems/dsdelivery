@@ -9,5 +9,5 @@ function App() { // Esse fragment será representado no HTML com div="root", mes
     </>
   );  // React fragment <> </>. Criamos um bloco de código, porém esse fragment não é representado no HTML
 }
-// parei no 1:52:35
+
 export default App;
