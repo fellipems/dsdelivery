@@ -6,3 +6,9 @@ export type Product = {
     description: string;
     imageUri: string;
 }
+
+export type OrderLocationData = {     // atributos/entidades/classe necessários para enviarmos para nosso backend para novo pedido com endereço
+    latidude: number;
+    longitude: number;
+    address: string;
+}
