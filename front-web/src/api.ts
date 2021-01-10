@@ -3,7 +3,7 @@ import axios from "axios";
 
 // métodos utilitários para fazer as requisições
 
-const API_URL = 'http://localhost:8080';    //base URL do nosso BACK
+const API_URL = process.env.REACT_APP_API_URL;    //base URL do nosso BACK
 const mapboxToken = process.env.REACT_APP_ACCESS_TOKEN_MAPBOX;
 
 export function fetchProducts() {
