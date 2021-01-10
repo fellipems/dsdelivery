@@ -8,11 +8,11 @@ function StepsHeader() {
                 <ul className="steps-items">
                     <li>
                         <span className="steps-number">1</span>
-                        Selecione os seus produtos e logo após a sua localização;
+                        Selecione os seus produtos, e logo após a sua localização;
                     </li>
                     <li>
                         <span className="steps-number">2</span>
-                        Depois, clique em <strong>"ENVIAR PEDIDO"</strong>
+                        Depois, clique em <strong>"FAZER MEU PEDIDO"</strong>.
                     </li>
                 </ul>
             </div>
