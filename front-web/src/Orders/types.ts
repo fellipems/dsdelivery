@@ -12,3 +12,12 @@ export type OrderLocationData = {     // atributos/entidades/classe necessários
     longitude: number;
     address: string;
 }
+
+type ProductId = {
+    id: number
+}
+
+export type OrderPayload = {    // classe payload que vamos enviar para nosso back-end
+    products: ProductId[];
+    // fazendo merge entre dois tipos. Juntando o orderPayLoad com o ordeLocationData
+} & OrderLocationData; // temos os atributos tando do PayLoad quanto o do OrderLocationData
